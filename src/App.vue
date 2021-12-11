@@ -14,12 +14,17 @@
           :clicks="tinyurl.clicks"
         >
         </tinyurl>
-        <div class="row fixed-bottom" style="width: 35%">
+        
+        <div class="row fixed-bottom">
+          <div class="col-4">
           <div id="links-label" class="py-2 row">
             <div class="col fw-light">5 Links</div>
             <div class="col fw-light" style="text-align: right">392 Clicks</div>
           </div>
+
+          </div>
         </div>
+
       </div>
 
       <div id="charts" class="col-8">
