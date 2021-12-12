@@ -13,6 +13,7 @@
           :url="tinyurl.url"
           :elapse_time="tinyurl.elapseTime"
           :clicks="tinyurl.clicks"
+          :favicon="tinyurl.favicon"
         >
         </tinyurl>
 
@@ -93,6 +94,7 @@ export default {
           url: "https://google.com/python-django-vue",
           elapseTime: "5",
           clicks: "82",
+          favicon: "https://getbootstrap.com/docs/5.1/assets/img/favicons/favicon.ico"
         },
         {
           id: 2,
@@ -100,6 +102,7 @@ export default {
           url: "https://google.com/php-laravel-vue",
           elapseTime: "9",
           clicks: "322",
+          favicon: "https://bootstrap-vue.org/_nuxt/icons/icon_64x64.67aef2.png"
         },
         {
           id: 3,
@@ -107,6 +110,7 @@ export default {
           url: "https://google.com/javascript-express-vue",
           elapseTime: "15",
           clicks: "123",
+          favicon: "https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196"
         },
         {
           id: 4,
@@ -114,6 +118,7 @@ export default {
           url: "https://google.com/ruby-rails-vue",
           elapseTime: "25",
           clicks: "243",
+          favicon: "https://www.google.com/favicon.ico"
         },
       ],
       totalCounts: [

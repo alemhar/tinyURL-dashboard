@@ -2,7 +2,7 @@
   <div class="row px-3 link-container">
     <div id="" class="col-1 d-flex align-items-center">
       <img
-        src="https://getbootstrap.com/docs/5.1/assets/img/favicons/favicon.ico"
+        :src="favicon"
         style="width: 30px"
       />
     </div>
@@ -27,6 +27,7 @@ export default {
     'url',
     'elapse_time',
     'clicks',
+    'favicon'
   ],
 };
 </script>
